@@ -1,0 +1,101 @@
+body {
+    font-family: Arial;
+    background-color: #eeeeee;
+    margin: 0;
+}
+
+nav {
+    background-color: darkblue;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.box {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.small-box {
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 95%;
+    padding: 8px;
+    margin-top: 4px;
+}
+
+button, .btn {
+    background-color: darkblue;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.green { background-color: green; }
+.red { background-color: darkred; }
+.grey { background-color: gray; }
+
+.success {
+    background-color: lightgreen;
+    color: darkgreen;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.error {
+    background-color: pink;
+    color: darkred;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card {
+    display: inline-block;
+    width: 25%;
+    background-color: #dddddd;
+    text-align: center;
+    padding: 15px;
+    margin: 5px;
+}
+
+.card h1 {
+    color: darkblue;
+}
+
+.table-area {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid gray;
+    text-align: left;
+}
+
+form.inline {
+    display: inline;
+}
